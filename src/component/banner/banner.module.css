@@ -1,0 +1,22 @@
+.BannerContainer {
+  min-height: 90vh;
+  width: 100%;
+  background-image: url("../../assest/Image/bannerImg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+.imageStyles{
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+}
+@media (max-width: 768px) {
+  .BannerContainer {
+    min-height: 60vh;
+    width: 100%;
+    max-width: 800px;
+  }
+}

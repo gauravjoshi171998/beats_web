@@ -1,0 +1,40 @@
+.GymCardBox {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  /* background-color: green; */
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+.GymCardBox:hover {
+  background-color: white;
+  border-radius: 15px;
+  padding: 0.5rem 0.5rem;
+  transform: scale(0.3s);
+  color: black;
+  max-width: 320px;
+}
+.GynImage {
+  width: 100%;
+}
+.GymCardText {
+  padding: 1rem 0.2rem;
+  display: grid;
+  grid-row-gap: 1rem;
+}
+.GymCardText h5 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.GymCardText ul {
+  display: grid;
+  grid-row-gap: 1rem;
+  padding-left: 1rem;
+}
+.GymCardText ul li {
+  list-style: circle;
+  color: lightgrey;
+  font-size: 0.9rem;
+}

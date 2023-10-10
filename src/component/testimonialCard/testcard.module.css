@@ -1,0 +1,39 @@
+.TestimonialCard {
+  width: 100%;
+  max-width: 350px;
+  background-color: white;
+  height: auto;
+  display: grid;
+  place-items: center;
+  padding: 2rem 2rem;
+  grid-row-gap: 2rem;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 1rem 0rem;
+  transition: 0.3s linear;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.TestimonialCard:hover {
+  box-shadow: 0px 0px 20px rgb(255, 167, 5);
+  transform: scale(0.3s);
+}
+.userImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.UserImag {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.TestimonialCard h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.TestimonialCard p {
+  color: grey;
+  font-size: 0.9rem;
+  text-align: justify;
+  line-height: 1.7;
+}
